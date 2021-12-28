@@ -16,5 +16,4 @@ botaoSortear.addEventListener("click", () => {
         palavraSorteada.innerHTML = palavras[roleta[Math.floor(Math.random() * roleta.length)]];
       }, 5000);
       
-    
 })

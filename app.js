@@ -1,7 +1,7 @@
 var palavraSorteada = document.querySelector("div.box h1")
 const botaoSortear = document.querySelector("div.box button")
 var loader = document.getElementById('loader');
-let palavras = ["Pergunta level 3","Sem bônus","Mais 2 minutos","Dobra bônus do dado - 1 rodada"]
+let palavras = ["+1 min","+2 min","Elimine 2 respostas incorretas - Pergunta Extra","+3 min"]
 let sorteio = Math.floor(Math.random()*palavras.length)
 roleta = [];
 
